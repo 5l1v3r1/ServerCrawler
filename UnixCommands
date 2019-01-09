@@ -1,3 +1,2 @@
-grep --color -i -r "password" ~/* -A 2 -B 2 -n > password_results.txt
 grep --color -i -r -E "^[1-9]{1}[0-9]{10}$" ~/* -A 2 -B 2 -n > tckn_results.txt
 grep --color -i -r -E "\b\d{13,16}\b" ~/* -A 2 -B 2 -n > cc_results.txt
