@@ -5,6 +5,6 @@ All scripts should run by users without any limitations. (i.e. root, Administrat
 
 Regex's can be changed for spesific use. Some are listed below;
 
-TC Identity No:"^[1-9]{1}[0-9]{10}$" ~/* 
+TC Identity No:"^[1-9]{1}[0-9]{10}$" 
 
-Generic Credit Cards: "\b\d{13,16}\b" ~/*
+Generic Credit Cards: "\b\d{13,16}\b" 
